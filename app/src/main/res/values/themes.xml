@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LeaveApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="Theme.LeaveApp" parent="Base.Theme.LeaveApp" >
+
+    </style>
+
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/del_sheet</item>
+    </style>
+    <style name="SheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_out</item>
+    </style>
+</resources>

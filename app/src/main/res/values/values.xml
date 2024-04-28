@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leave_types">
+        <item>IntraDay</item>
+        <item>Some Days</item>
+        <item>Emergency</item>
+    </string-array>
+
+    <string-array name="purpose_types">
+        <item>Going for Personal Reason</item>
+        <item>Going to Market</item>
+        <item>Going to Home</item>
+        <item>Going to Hospital</item>
+        <item>Going for function</item>
+    </string-array>
+</resources>

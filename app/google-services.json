@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61429361599",
+    "project_id": "leaveapp-ef71c",
+    "storage_bucket": "leaveapp-ef71c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61429361599:android:08a96cfbd5fd58af260f0a",
+        "android_client_info": {
+          "package_name": "com.shiwangapp.leaveapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAImP0uStK7J2h7zM6WiTFiu-7vSQaSUgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
